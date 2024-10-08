@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import Sidenav from '@/app/ui/navbar';
+import NavBar from '@/app/ui/navbar';
 
 
 export default function RootLayout({
@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Sidenav />
+        <NavBar />
 
         {children}
       </body>
